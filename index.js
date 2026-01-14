@@ -198,3 +198,31 @@
 
 // const obj = {...7, ..."piyush ramje"};
 // console.log(obj)
+
+// function x() {
+//     var a = 7;
+//     function y(){
+//         console.log(a)
+//     }
+//     y()
+//     a = 100
+//     y()
+//     return y;
+// }
+// var z = x();
+// console.log(z)
+
+// function z() {
+//     var b = 90
+//     function x() {
+//         var a = 7
+//         function y() {
+//             console.log(a,b)
+//         }
+//         y()
+//     }
+//     x()
+// }
+// z()
+
+//kal ab

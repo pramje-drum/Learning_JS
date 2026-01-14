@@ -20,5 +20,6 @@
 - ternary operators
 - ternary chaining and nested
 - spread operator done.
+- closures
 
 
