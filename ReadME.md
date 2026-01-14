@@ -1,1 +1,3 @@
 # LEARNING JAVASCRIPT
+
+## Day 1
