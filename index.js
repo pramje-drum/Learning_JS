@@ -181,7 +181,7 @@
 
 // //ternary chains
 // const age = 26
-// const drink = 
+// const drink =
 //     age > 50 ?  "khichdi":
 //     age > 30 ? "Whiski":
 //     age > 21 ? "Beer":
@@ -224,3 +224,220 @@
 //     x()
 // }
 // z()
+
+// ****************************************************************************************************
+
+// function declaration
+
+{
+	function demo(value) {
+		return "Hi I am " + value;
+	}
+
+	const res = demo("Piyush");
+	console.log(res);
+}
+
+// ****************************************************************************************************
+
+// function expression
+
+{
+	const demo = function (value) {
+		return `Hi my name is ${value}`;
+	};
+
+	const res = demo("Sahil");
+	console.log(res);
+}
+
+// ****************************************************************************************************
+
+// arrow function expression
+{
+	// const result = demo("drum")
+	// console.log(res)       shows refrence error
+
+	const demo = (val) => {
+		return `Hi ${val}, What do you do?`;
+	};
+
+	const res = demo(`Piyush`);
+	console.log(res);
+}
+
+// ****************************************************************************************************
+
+// function callback
+
+{
+	const arr = [15, 145, 12, 45];
+	arr.forEach(function (val) {
+		console.log(val);
+	});
+}
+
+// ****************************************************************************************************
+
+// function callback with arrow functions
+
+{
+	const arr = [15, 26, 35, 78, 691];
+	arr.forEach((val) => console.log(val));
+}
+
+console.log("\n");
+// ****************************************************************************************************
+
+//parameters
+{
+	function multiply(a, b) {
+		return a * b;
+	}
+	console.log(multiply(9, 8));
+}
+
+console.log("\n");
+// ****************************************************************************************************
+
+//default parameters
+{
+	const multiply = (a = 9, b = 1) => {
+		return a * b;
+	};
+	const num1 = multiply();
+	const num2 = multiply(5);
+	const num3 = multiply(undefined, 2);
+
+	console.log(num1);
+	console.log(num2);
+	console.log(num3);
+}
+
+console.log("\n");
+// ****************************************************************************************************
+
+//return values?
+
+{
+	function NoReturn() {
+		return;
+	}
+	console.log(NoReturn());
+}
+console.log("\n");
+
+// return value
+{
+	const dummy = (name) => {
+		return `Hello ${name}!!`;
+	};
+	let mssg = dummy("Piyush");
+	console.log(mssg);
+}
+console.log("\n");
+
+// returning objects and functions
+{
+	const demo = (val1, val2) => {
+		const obj = {
+			name: val1,
+			age: val2,
+		};
+		return obj;
+	};
+	const res = demo("Piyush", 34);
+	console.log(res);
+}
+{
+	const demo = (val1, val2) => {
+		const obj = (val1, val2) => {
+			return val1 * val2;
+		};
+		return obj;
+	};
+	const res = demo("Piyush", 34);
+	console.log(res);
+}
+
+console.log("\n");
+// ****************************************************************************************************
+
+//returning function with recursions
+
+{
+	const factorial = (val) => {
+		return val < 2 ? 1 : val * factorial(val - 1);
+	};
+	const res = factorial(5);
+	console.log(res);
+}
+
+console.log("\n");
+// ****************************************************************************************************
+
+//Functions as a React Component!!
+
+// {
+//     function App() {
+//         const greeting = "Hello, How are you."
+
+//         return <>Hello World </>
+//     }
+// }
+
+console.log("\n");
+// ****************************************************************************************************
+
+//Arrow Functins in react
+
+// {
+//     const App = ({val}) => {
+//         return <h1>Hello World!</h1>
+//     }
+// }
+
+console.log("\n");
+// ****************************************************************************************************
+
+//Hoisting in var
+
+// {
+// 	console.log(a);
+
+// 	var a = 23;
+// }
+
+// {
+// 	console.log(a);
+
+// 	let a = 23;
+// }
+
+// {
+// 	console.log(a);
+
+// 	const a = 23;
+// }
+
+
+console.log("\n");
+// ****************************************************************************************************
+
+
+// {
+//     var x = 9
+//     var y = 8
+//     console.log(x + " " + y)
+// }
+// {
+//     var x = 9
+//     console.log(x + " " + y)
+//     var y = 10
+// }
+
+
+console.log("\n");
+// ****************************************************************************************************
+
+

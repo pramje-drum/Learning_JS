@@ -22,4 +22,14 @@
 - spread operator done.
 - closures
 
+## DAY-2
+
+- Function Declaration and Expressions
+- Arrow Function Expression
+- Parameters
+- return values 
+- default parameters
+- Hoisting & Execution Context
+- How functions are used in React 
+
 
