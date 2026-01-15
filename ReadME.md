@@ -31,5 +31,27 @@
 - default parameters
 - Hoisting & Execution Context
 - How functions are used in React 
+- Objects - creating & accessing
+- Immutable Object Update in JavaScript
+- Array Destructuring
+- Object Destructuring 
+- Arrays Creation & Access
+- map()
+- filter()
+- reduce()
+- find()
+- Rendering lists with maps
+- keys in react lists 
+- destructuring in function parameters
+- copying objects and arrays using spread operators
+- changing immutable states 
+- rest operator in parameters
+- if/else in js
+- ternary operator usage in react 
+- conditional rendering using && 
+- import/export in js
+- named vs default exports
+- modules in react and js
+
 
 
