@@ -54,4 +54,22 @@
 - modules in react and js
 
 
+## DAY 3
 
+- SetTimeOut()
+- Setinterval()
+- promises
+- fetch()
+- async / await
+- then/catch
+- try/catch
+- API Calls
+- Callback functions
+- Optional Chaining (?.)
+- Nullish coalescing (??)
+- csr vs ssr
+- closures
+- hoisting
+- debounce & throttle
+- deep vs shallow copy
+- template literals
