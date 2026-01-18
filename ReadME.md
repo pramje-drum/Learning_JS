@@ -76,4 +76,5 @@
 
 ## DAY 4
 - DOM Manipulation 
-- 
+- Event Listeners
+- Add, create, delete Events.
