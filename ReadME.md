@@ -73,3 +73,7 @@
 - debounce & throttle
 - deep vs shallow copy
 - template literals
+
+## DAY 4
+- DOM Manipulation 
+- 
