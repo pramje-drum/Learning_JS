@@ -137,15 +137,59 @@
 
 // ???????????????????????????????????????//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-let paras = document.querySelectorAll("p");
+// let paras = document.querySelectorAll("p");
 
-function logic(event) {
-	if(event.target.nodeName === 'SPAN')
-	{
-	alert("You have Clicked on para no. "+ event.target.textContent);}
-}
+// function logic(event) {
+// 	if(event.target.nodeName === 'SPAN')
+// 	{
+// 	alert("You have Clicked on para no. "+ event.target.textContent);}
+// }
 
-for (let i = 0; i < paras.length; i++) {
-	let para = paras[i];
-	para.addEventListener("click", logic);
-}
+// for (let i = 0; i < paras.length; i++) {
+// 	let para = paras[i];
+// 	para.addEventListener("click", logic);
+// }
+
+// ???????????????????????????????????????//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const title = document.querySelector('#heading_text')
+// console.log(title)
+
+// title.style.color = 'red'
+
+// const list_items = document.querySelectorAll('#movie_lists')
+
+// for(let i = 0; i < list_items.length; i++)
+// {
+// 	list_items[i].style.fontSize = "30px";
+// }
+// console.log(list_items)
+
+// const ul = document.querySelectorAll('ul')
+// const li = document.createElement('li')
+
+// // ul.append(li)
+// // li.textContent = "Maddock Horror Universe"
+
+// for(let i = 0; i < ul.length; i++)
+// {
+// 	ul[i].style.fontSize = '50px'
+// }
+
+// console.log(ul.parentNode.parentNode)
+// console.log(ul.parentElement.parentElement)
+
+// console.log(ul.childNodes);
+// console.log(ul.firstChild);
+// console.log(ul.lastChild);
+
+// ul.childNodes[1].style.backgroudColor = "blue";
+
+
+// console.log(ul.children)
+// console.log(ul.firstElementChild)
+// console.log(ul.lastElementChild)
+
+
+// let ul = document.querySelector("#unordered_lists");
+// console.log(ul)
