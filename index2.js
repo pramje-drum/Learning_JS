@@ -185,11 +185,151 @@
 
 // ul.childNodes[1].style.backgroudColor = "blue";
 
-
 // console.log(ul.children)
 // console.log(ul.firstElementChild)
 // console.log(ul.lastElementChild)
 
-
 // let ul = document.querySelector("#unordered_lists");
 // console.log(ul)
+
+// class car {
+//     constructor(brand, model){
+//         this.brand = brand
+//         this.model = model
+//     }
+
+//     showDetails(){
+//         console.log(`This is the car of ${this.brand} and the model is ${this.model}`);
+//     }
+// }
+
+// const car1 = new car('Toyota', 'Corrola')
+// const car2 = new car('Honda', 'Civic')
+
+// car1.showDetails()
+// car2.showDetails()
+
+// const obj = {
+//     city : 'Jabalpur',
+//     greet()  {
+//         console.log(`Hello from ${this.city}`)
+//     }
+// }
+// console.log(Object.getPrototypeOf(obj))
+
+// class Animal{
+//     sleep() {
+//         console.log('zzzzz')
+//     }
+// }
+
+// const spot = new Animal();
+
+// spot.sleep();
+
+// class parent_class{
+//     constructor(name){
+//         this.name = name
+//     }
+
+//     getName(){
+//         return "-"
+//     }
+// }
+
+// class child_class extends parent_class{
+//     constructor(name, index)
+//     {
+//         super(name);
+//         this.index = index;
+//     }
+
+//     getName(){
+//         return "/"
+//     }
+
+//     getFullName(){
+//         console.log(this.name + super.getName() + this.index)
+//     }
+// }
+
+// const temp = new child_class('Piyush', 1);
+
+// temp.getFullName();
+
+// class Rectangle{
+//     constructor(h, w){
+//         this.name = 'Rectangle'
+//         this.height = h
+//         this.widht = w
+//     }
+
+//     sayName(){
+//         console.log("Hello I am " + this.name)
+//     }
+//     get area(){
+//         return this.height * this.widht;
+//     }
+//     set area(val){
+//         this._area = val;
+//     }
+// }
+
+// class Square extends Rectangle{
+//     constructor(len)
+//     {
+//         super(len,len);
+//         this.name = 'Square';
+//     }
+// }
+
+// const temp = new Square(9)
+
+// console.log(temp.area)
+// temp.sayName();
+// const temp2 = new Rectangle(9, 8)
+
+// console.log(temp2.area)
+// temp2.sayName();
+
+// class static_class{
+//     static property = "someValue";
+//     static Method(){
+//         return 'static method has been callled'
+//     }
+//     static{
+//         console.log("Class static initialisation block called");
+//     }
+// }
+
+// console.log(static_class.property);
+// console.log(static_class.Method());
+
+// function *funct(){
+//     yield "one";
+//     yield "two";
+//     yield "three";
+//     yield "four";
+//     yield "five";
+//     yield "six";
+// }
+// let temp = funct()
+
+// for(let value of temp)
+// {
+//     console.log(value)
+// }
+
+// const user = {
+// 	username: "Piyush",
+// 	loginCount: 8,
+// 	signedIn: true,
+
+// 	getUserDetails: function () {
+// 		console.log("Got user details from database");
+// 		console.log(`Username: ${this.username}`);
+// 	},
+// };
+
+// console.log(user.username);
+// console.log(user.getUserDetails());
